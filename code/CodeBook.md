@@ -15,8 +15,8 @@
 - the data are filtered based on variable names to retain only variables for which the variable names contain either '-mean()' or '-std()'. These variable names identify variables that contain the mean and standard deviation calculations.
 - variable names are cleaned up a bit to remove capital letters, the leading 't', and any non-alphanumeric characters.
 - subject and activity identifiers are added to the data set based on the 'subject_train.txt', 'subject_test.txt', 'y_train.txt' and 'y_test.txt' files.
-- the data set is saved in the 'output' directory as 'activityData.csv'.
-- the data set is further summarized by calculating the mean for each variable across each activity and subject. This additional data set is saved in the 'output' directory as 'activitySummary.csv'.
+- the data set is saved in the 'output' directory as 'activityData.txt'.
+- the data set is further summarized by calculating the mean for each variable across each activity and subject. This additional data set is saved in the 'output' directory as 'activitySummary.txt'.
 
 ## New Variable Names
 The following is a list of the variable names in the original and new data sets.
@@ -44,6 +44,6 @@ Otherwise, the names remain essentially the same. Example variable name modifica
 | tBodyAccJerk-std()-Z  | bodyaccjerkstdz  |
 
 ## Summary Data
-The data is further summarized and stored in the file 'activitySummary.csv' using the following steps:
+The data is further summarized and stored in the file 'activitySummary.txt' using the following steps:
 - the data set is grouped by activity and subject.
 - The mean function is then applied to all variables such that the summary retains the mean for each variable for each activity and each subject.

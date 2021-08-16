@@ -22,5 +22,5 @@ Within the UCI HAR Dataset, teh following files are used:
 1. For the 'x_train' and 'x_test' data sets, the variable names are added using the 'features.txt' file contents. Further, the variable names are adjusted to make them a bit more tidy.
 2. The data is filtered so that only the 'mean' and 'std' variables (columns) are kept.
 3. Additional columns for the subject and activity are added to the data set.
-4. The data set is saved as 'activityData.csv' for future processing.
-5. A summary data set is created that calculates the mean for each variable for each activity and subject. This summary data set is saved as 'activitySummary.csv' for future processing.
+4. The data set is saved as 'activityData.txt' for future processing.
+5. A summary data set is created that calculates the mean for each variable for each activity and subject. This summary data set is saved as 'activitySummary.txt' for future processing.

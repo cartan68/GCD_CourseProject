@@ -75,8 +75,8 @@ activity_groups <- group_by(activity_data, activity, subject)
 activity_summary <- summarize_all(activity_groups, mean, na.rm = TRUE)
 
 # Save the data to a file for later use
-write.csv(activity_data, "./output/activityData.csv")
-write.csv(activity_summary, "./output/activitySummary.csv")
+write.table(activity_data, "./output/activityData.txt", row.names = FALSE)
+write.table(activity_summary, "./output/activitySummary.txt", row.names = FALSE)
 
 # Clean up workspace
 rm(list = ls())
