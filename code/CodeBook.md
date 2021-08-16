@@ -33,7 +33,8 @@ All other data is the same as the corresponding variables in the 'x_train.txt' a
 - change all letters to lower case
 - remove all non-alphanumeric characters
 Otherwise, the names remain essentially the same. Example variable name modifications can be found below.
-|        Before         |      After       |
+
+| Before                | After            |
 | --------------------- | ---------------- |
 | tBodyAcc-mean()-X     | bodyaccmeanx     |
 | tBodyAcc-std()-X      | bodyaccstdx      |
