@@ -12,9 +12,13 @@
 
 library(dplyr)
 
-# Establish a data repository
+# Establish a data repository and output directory
 if (!file.exists("data")) {
   dir.create("data")
+}
+
+if (!file.exists("output")) {
+  dir.create("output")
 }
 
 # Download the data to the data repository
